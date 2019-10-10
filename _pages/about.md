@@ -8,22 +8,30 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<html>
-  <head>
-    <link href="js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="js-image-slider.js" type="text/javascript"></script>
-  </head>
-  <body>
-    <div id="sliderFrame">
-        <div id="slider">
-            <img src="images/placeholder_group.jpeg" alt="Caption for slide 1" />
-            <img src="images/placeholder_group.jpeg" />
-            <img src="images/placeholder_group.jpeg" />
-            <img src="images/placeholder_group.jpeg" alt="Caption for slide 5" />
-        </div>
-    </div>
-  </body>
-</html>
+<img class="mySlides" src="images/placeholder_group.jpeg">
+<img class="mySlides" src="images/placeholder_group.jpeg">
+<img class="mySlides" src="images/placeholder_group.jpeg">
+<img class="mySlides" src="images/placeholder_group.jpeg">
+
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
 <br><br>
 
 How do children and young adult differ in how they learn? How does this learning change in old age? What factors contribute to optimal decision-making strategies? 
