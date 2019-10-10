@@ -8,19 +8,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-  </head>
-  <body>
-    <div id="sliderFrame">
-        <div id="slider">
-            <img src="pdf_publications/MCC2019_final.pdf" alt="Caption for slide 1" />
-            <img src="slide-2.jpg" />
-            <a href="http://menucool.com"><img src="slide-3.jpg" /></a>
-            <img src="slide-4.jpg" />
-            <img src="slide-5.jpg" alt="Caption for slide 5" />
-        </div>
-    </div>
-  </body>
-</html>
 
 How do children and young adult differ in how they learn? How does this learning change in old age? What factors contribute to optimal decision-making strategies? 
 
