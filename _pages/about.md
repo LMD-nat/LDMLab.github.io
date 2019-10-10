@@ -8,6 +8,23 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<html>
+  <head>
+    <link href="js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="js-image-slider.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="sliderFrame">
+        <div id="slider">
+            <img src="images/placeholder_group.jpeg" alt="Caption for slide 1" />
+            <img src="images/placeholder_group.jpeg" />
+            <img src="images/placeholder_group.jpeg" />
+            <img src="images/placeholder_group.jpeg" alt="Caption for slide 5" />
+        </div>
+    </div>
+  </body>
+</html>
+<br><br>
 
 How do children and young adult differ in how they learn? How does this learning change in old age? What factors contribute to optimal decision-making strategies? 
 
