@@ -8,15 +8,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<html>
-  <head>
-    <link href="js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="js-image-slider.js" type="text/javascript"></script>
   </head>
   <body>
     <div id="sliderFrame">
         <div id="slider">
-            <img src="slide-1.jpg" alt="Caption for slide 1" />
+            <img src="pdf_publications/MCC2019_final.pdf" alt="Caption for slide 1" />
             <img src="slide-2.jpg" />
             <a href="http://menucool.com"><img src="slide-3.jpg" /></a>
             <img src="slide-4.jpg" />
