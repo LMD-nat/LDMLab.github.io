@@ -8,6 +8,24 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<html>
+  <head>
+    <link href="js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="js-image-slider.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="sliderFrame">
+        <div id="slider">
+            <img src="slide-1.jpg" alt="Caption for slide 1" />
+            <img src="slide-2.jpg" />
+            <a href="http://menucool.com"><img src="slide-3.jpg" /></a>
+            <img src="slide-4.jpg" />
+            <img src="slide-5.jpg" alt="Caption for slide 5" />
+        </div>
+    </div>
+  </body>
+</html>
+
 How do children and young adult differ in how they learn? How does this learning change in old age? What factors contribute to optimal decision-making strategies? 
 
 The primary goal of our research is to gain a better understanding of the cognitive and neural mechanisms underlying changes in learning and decision-making across the human lifespan. The LDM lab, directed by Dr. Ben Eppinger, studies how age affects learning mechanisms and decision-making strategies. 
