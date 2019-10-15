@@ -18,7 +18,7 @@ redirect_from:
 <body>
 
 <div class="w3-content w3-display-container">
-  <img class="mySlides" src="images/placeholder_group.jpeg" style="width:100%">
+  <img class="mySlides" src="images/campus.jpg" style="width:100%">
   <img class="mySlides" src="images/foo-bar-identity.jpg">
   <img class="mySlides" src="images/crdh_win.jpg">
   <img class="mySlides" src="images/foo-bar-identity.jpg">
