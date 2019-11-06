@@ -19,7 +19,7 @@ redirect_from:
 
 <div class="w3-content w3-display-container">
   <img class="mySlides" src="images/campus.jpg" style="width:100%">
-  <img class="mySlides" src="iimages/cassandra-Alexa-labfair.jpg">
+  <img class="mySlides" src="images/cass-alexa-labfair.png">
   <img class="mySlides" src="images/crdh_win.jpg">
   <img class="mySlides" src="images/foo-bar-identity.jpg">
 
