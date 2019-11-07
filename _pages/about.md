@@ -21,7 +21,6 @@ redirect_from:
   <img class="mySlides" src="images/campus.jpg" style="width:100%">
   <img class="mySlides" src="images/cass-alexa-labfair.png">
   <img class="mySlides" src="images/crdh_win.jpg">
-  <img class="mySlides" src="images/foo-bar-identity.jpg">
 
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
