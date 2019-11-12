@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "LDM Lab"
-  avatar           : "Logo.png" height="500" width ="600"
+  avatar           : "Logo.png"
   bio              : "Lifespan Decision-Making Lab"
   location         : "7141 Rue Sherbrooke O"
   employer         :
