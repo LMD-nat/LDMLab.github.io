@@ -1,0 +1,21 @@
+# main links links
+main:
+  - title: "Research"
+    url: /research/  
+    
+  - title: "Talks & Conferences"
+    url: /conferences/
+    
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Team"
+    url: /team/    
+    
+  - title: "Join us!"
+    url: /join-us/
+        
+  - title: "Contact us"
+    url: /contact-us/
+    
+
