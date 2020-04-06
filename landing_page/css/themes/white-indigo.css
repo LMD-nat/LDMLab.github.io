@@ -3,6 +3,12 @@
 main {
 	background: #303F9F;
 		color: #303F9F;
+	<style>
+div {
+  background-image: url('img_girl.jpg');
+}
+</style>
+
 }
 
 .icons-social a {
