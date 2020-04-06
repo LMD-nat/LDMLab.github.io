@@ -1,8 +1,7 @@
 /* Theme */
 
 main {
-	background-image: url("images/landing_page.png");
- background-color: #cccccc;
+	background-image: url("images/landing_page.png")
 }
 
 .icons-social a {
