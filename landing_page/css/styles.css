@@ -31,10 +31,7 @@ html {
 .icons-social i {
 	font-size: 3em;
 }
-body {
- background-image: url("images/landing_page.png");
- background-color: #cccccc;
-}
+
 /* Custom Styles */
 
 main {
