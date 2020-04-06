@@ -1,9 +1,8 @@
 /* Theme */
 
 main {
-	background: #303F9F;
-		color: #303F9F;
-
+	background-image: url("images/landing_page.png");
+ background-color: #cccccc;
 }
 
 .icons-social a {
@@ -12,9 +11,4 @@ main {
 
 .icons-social a svg path{
 	fill: #303F9F;
-}
-
-body {
- background-image: url("images/landing_page.png");
- background-color: #cccccc;
 }
