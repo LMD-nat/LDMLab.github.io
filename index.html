@@ -40,10 +40,34 @@
 .button {background-color: #555555;} /* Black */
 
 </style>
-</head>
 
+<head>
+<style>
+body, html {
+  height: 75%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('images/landing_page.png');
+
+  /* Full height */
+  height: 75%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
 <body>
-	<main>
+
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:white;font-size:36px">
+<main>
 		<div class="intro">Welcome to the Lifespan Decision-Making Lab!</div>
 		<div class="tagline">Dr. Ben Eppinger</div>
 		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
@@ -52,8 +76,7 @@
 	</main>
 
 
-    </div>
-	</main>
-<center><img src='images/landing_page.png' height="2000" width="2000"> <a href ="http://www.ldmlab.org/research/"</a></center>
+<div class="parallax"></div>
+
 </body>
 </html>
