@@ -9,43 +9,13 @@ author_profile: true
 
 <!DOCTYPE html>
 <html>
-
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none;}
-</style>
-</head>
-
-<body>
-
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="images/campus.jpg" style="width:100%">
-  <img class="mySlides" src="images/cass-alexa-labfair.png" style="width:100%">
-  <img class="mySlides" src="images/crdh_win.jpg" style="width:100%">
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
-
-</body>
-</html>
+<div id="slideshow">
+   <div>
+     <img src="http://farm6.static.flickr.com/5224/5658667829_2bb7d42a9c_m.jpg">
+   </div>
+   <div>
+     <img src="http://farm6.static.flickr.com/5230/5638093881_a791e4f819_m.jpg">
+   </div>
 
 <center>
 <h2> What do we study? </h2>
@@ -66,3 +36,4 @@ function carousel() {
   <p>1. Experimental Tasks </p>
   <p>2. Computational Modelling </p>
   <p>3. Neuroimaging (EEG,fMRI) </p>
+  </html>
