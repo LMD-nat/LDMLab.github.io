@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "LDM Lab"
+title                    : "LDMlab"
 title_separator          : "-"
-name                     : &name "LDM Lab"
-description              : &description "Lifespan Decision Making Lab"
+name                     : &name "LDMlab"
+description              : &description "Lifespan & Decision Making Lab"
 url                      : https://LDMLab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "LDMlab/LDMLab.github.io"
