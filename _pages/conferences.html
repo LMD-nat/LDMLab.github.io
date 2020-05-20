@@ -5,10 +5,10 @@ permalink: /conferences/
 author_profile: true
 ---
 <br>
-<html>
+<div>
+<html> 
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  
 <style>
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -17,8 +17,8 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 600px;
-  position: center;
+  max-width: 1000px;
+  position: relative;
   margin: auto;
 }
 
@@ -58,8 +58,8 @@ img {vertical-align: middle;}
   color: #f2f2f2;
   font-size: 20px;
   padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+  position: relative;
+  bottom: 20px;
   width: 100%;
   text-align: center;
 }
@@ -113,31 +113,34 @@ img {vertical-align: middle;}
 }
 </style>
 </head>
-
 <body>
+
+<h2 style="text-align:center">What's going on in the lab?</h2>
+
 <div class="slideshow-container">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
   <img src="/images/Sean-RLDM.jpg" style="width:100%">
-  <div class="text">Sean at RLDM 2019</div>
+  <div class="text">Concordia's Lab Fair</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
   <img src="/images/Alexa-RLDM.jpg" style="width:100%">
-  <div class="text">Alexa at RLDM 2019</div>
+  <div class="text">CRDH annual conference 2019</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
   <img src="/images/crdh_win.jpg" style="width:100%">
-  <div class="text">Sean won best poster at CRDH's annual conference</div>
-</div>
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <div class="text">Caption Three</div>
 </div>
 
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
 <br>
 
 <div style="text-align:center">
@@ -174,6 +177,10 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+
+</body> 
+</html> 
+</div>
 
 </body>  
 <br>
