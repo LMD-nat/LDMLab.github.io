@@ -1,8 +1,8 @@
 # main links links
 main:
   - title: "Home"
-    url: /home/  
-    <link rel="icon" href="images/logo-image.png" type="images/png">
+    url: /home/
+    icon: href="images/logo-image.png" type="images/png"
     
   - title: "Research"
     url: /research/  
