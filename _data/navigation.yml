@@ -2,6 +2,7 @@
 main:
   - title: "Home"
     url: /home/  
+    <link rel="icon" href="images/logo-image.png" type="images/png">
     
   - title: "Research"
     url: /research/  
