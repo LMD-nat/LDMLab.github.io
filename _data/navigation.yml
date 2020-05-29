@@ -6,15 +6,15 @@ main:
   - title: "Research"
     url: /research/  
     
+  - title: "Team"
+    url: /team/    
+    
   - title: "Lab News"
     url: /lab-news/
     
   - title: "Publications"
     url: /publications/
 
-  - title: "Team"
-    url: /team/    
-    
   - title: "Join us!"
     url: /join-us/
         
