@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "<img src="/images/logo-image.png">"
+title                    : "LDMlab"
 title_separator          : "-"
 name                     : &name "LDMlab"
 description              : &description "Lifespan & Decision Making Lab"
