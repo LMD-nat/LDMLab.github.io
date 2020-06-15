@@ -25,16 +25,46 @@
 </head>
 <body>
 <style>
-body {
-  background-image: url('/images/logo-image.png');
-  background-repeat: no-repeat;
-  background-attachment: relative;
-  background-size: 50%;
-  background-position: center;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+body, html {
+  height: 100%;
+  margin: ;
+  font-family: Arial, Helvetica, sans-serif;
 }
-	
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("images/logo-image.png");
+  
+  /* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 800px;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  text-align: center;
+}
+
 .button {
   background-color: #555555; 
   border: none;
@@ -51,7 +81,7 @@ body {
 </style>
 
 <div class="bg-image"></div>
-<center>
+
 <div class="bg-text">
   <h1 style="font-size:50px">Lifespan & Decision-Making Lab</h1>
 	<br>
