@@ -5,153 +5,46 @@ permalink: /home/
 author: "LDMlab"
 author_profile: true
 ---
-<html> 
-<style>
-#video-view {
-  display:none;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-  }
-.overlay {
-  background:rgba(51, 51, 51, 0.7);
-  position: absolute;
-  height:100%;
-  width:100%;
-  z-index:9999999;
-}
-.class-video {
-  z-index:9999999999;
-  position: fixed;
-  top:20%;
-  right:0;
-  left:0;
-  bottom:0;
-  text-align: center;
-}
-.close-video {
-    z-index: 9999999999999;
-    position: fixed;
-    top: 14%;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-.ss-video-holder {
-  margin-bottom:40px;
-  max-width:520px;
-}
-.ss-video-holder a {
-      max-width: 520px;
-    display: block;
-    position: relative;
-    background: url(http://enviroscent.com/shopflow-1-04-0/img/Site/ss-living-room-holder.png) no-repeat;
-    height: 299px;
-    background-size: cover;
-}
-.ss-play-btn {
-  position: absolute;
-    top: 38%;
-    max-width: 70px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-}
-.video-title {
-  font-size:1.3rem;
-  text-align:center;
-  margin-top:15px;
-  font-weight:bold;
-}
-.video-time {
-  font-size:.9rem;
-  text-align:center;
-  margin-top:5px;
-  display: block;
-  font-weight: light;
-}
-	</style>
-<div>
+<html>
 <body>
-<div class="row-fluid">
-          <div class="span6">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="text-center display-4 mt-5">
+        Solodev Web Design & Content Management Software
+      </h1>
+      <p class="text-center mt-5">
+        <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn btn-outline-danger popup-modal">See Why Solodev WXP</a>
+      </p>
+      <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
 
-            <div class="ss-video-holder">
-              <!-- VIDEO -->
-              <a class="ss-popup" href="#!" data-link="https://player.vimeo.com/video/192500245?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f&amp;autoplay=1">
-                <img src="http://enviroscent.com/shopflow-1-04-0/img/Site/play-btn.png" class="ss-play-btn">
-              </a>
-              <div class="video-title">ScentSicles Santa - Living Room</div>
-              <span class="video-time">(0:51s)</span>
-              <div>
-                <!-- VIDEO END -->
-                <div class="ss-video-holder">
-                  <!-- VIDEO -->
-                  <a class="ss-popup" href="#!" data-link="https://player.vimeo.com/video/192504460?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f">
-                    <img src="http://enviroscent.com/shopflow-1-04-0/img/Site/play-btn.png" class="ss-play-btn">
-                  </a>
-                  <div class="video-title">ScentSicles Santa - Gym</div>
-                  <span class="video-time">(0:38s)</span>
-                  <div>
-                    <!-- VIDEO END -->
+<style>
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
 
-                  </div>
-
-                  <div class="span6">
-
-                    <div class="ss-video-holder">
-                      <!-- VIDEO -->
-                      <a class="ss-popup" href="#!" data-link="https://player.vimeo.com/video/192504356?title=0&amp;byline=0&amp;portrait=0&amp;color=d01e2f">
-                        <img src="http://enviroscent.com/shopflow-1-04-0/img/Site/play-btn.png" class="ss-play-btn">
-                      </a>
-                      <div class="video-title">ScentSicles Santa - Office</div>
-                      <span class="video-time">(0:49s)</span>
-                      <div>
-                        <!-- VIDEO END -->
-
-                      </div>
-                    </div>
-
-                  </div>
-		      </div>
-                <!--END MAIN CONTAIN-->
-
-                <div id="video-view">
-                  <div class="overlay"></div>
-                  <span class="close-video">X</span>
-                </div>
-		      </body>
-		  </div>
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
+</style>
 
 <script>
-$(".ss-popup").click(function () {
-    $("#video-view").show();
-    var $this = $(this);
-  var autoplay = "&amp;autoplay=1"
-    var $iframe = $("<iframe>").attr("src", ($this.data("link") + autoplay)).css({"width": 695, "height": 400});
-    var $title = $("<h1>").text($this.data("title"));
-    $("#video-view").append($iframe);
-    $iframe.wrap("<div class='class-video'>");
-});
-
-$(".close-video").click(function () {
-	$("#video-view").hide();
-  $("#video-view iframe").attr("src", "");
-});
-
-$("#video-view .overlay").click(function () {
-	$("#video-view").hide();
+$(document).ready(function() {
+  $('#headerVideoLink').magnificPopup({
+    type:'inline',
+    midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+  });         
 });
 </script>
-	
+
 </html>
 
    
