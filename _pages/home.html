@@ -5,72 +5,271 @@ permalink: /home/
 author: "LDMlab"
 author_profile: true
 ---
+<section class="Research Program">
+<div>
+<html> 
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LDMlab</title>
+		<link rel="icon" href="/images/logo-image.png" type="images/png"/>
+	
+<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+	</head>
+<style>
+	
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 80%;
+  height: 80%;
+  cursor: pointer;
+}
+body {
+  background-image: url('/images/research_program.png');
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-size: 50%;
+  background-position: top 37% left 53%; 
+}
+h1 {
+font-size:60px
+}
+	
+</style>
+  
+<body>
+<center> 
+  <h1> Research Program </h1>
+<br><br><br><br><br>
+<div class="container">
+  <img src="/images/research_program1.png" alt="Avatar" class="image" style="width:30%" onclick="location.href='http://www.ldmlab.org/research/#Adaptive Learning';" >
+</div>
+  <br>
+<div class="container">
+  <img src="/images/research_program2.png" alt="Avatar" class="image" style="width:30%" onclick="location.href='http://www.ldmlab.org/research/#Learning Strategies';" > 
+</div>
+  <br>
+<div class="container">
+  <img src="/images/research_program3.png" alt="Avatar" class="image" style="width:30%" onclick="location.href='http://www.ldmlab.org/research/#Social Learning';">
+</div>
+</body>
+</html> 
+</div>
+  </section>
+
+<section class="images">
+<div>
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #474342;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6 ease; 
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the left & right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+ .prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+span { 
+    background-color: #595656; 
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+	
+  
+@charset "utf-8";
+/* CSS Document */
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
+	
+</style>
+	
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+
 <script>
-$(function(){
-    $("#showPopup").click(function(e){
-        e.stopPropagation();
-        $(".bg").toggle();
-        $(".popup").toggle();
-    });
-    
-$(".close").click(function() {
-    $('.modal').hide();
-    $("#arsha_video").attr('src','');
-    
-       var video = $("#player").attr("src");
-        $("#player").attr("src","");
-        $("#player").attr("src",video);
-
+  $( document ).ready(function() {
+	$('#headerVideoLink').magnificPopup({
+	type:'inline',
+	midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+	});
 });
+   
+</script>
+	
+</head>
+  <br><br><br><br><br>
+<body>
+<br>
+<p>
+<center><div class="slideshow-container">
 
-    
-    $("body").click(function(){
-        $(".bg").toggle();
-        $(".popup").hide();
-           var video = $("#player").attr("src");
-        $("#player").attr("src","");
-        $("#player").attr("src",video);
-    });
-});
+ <div class="mySlides fade">
+  <div class="numbertext">1 / 2</div>
+     <div class="text"><span>Sean Devine recently presented his research at CogSci's online conference.
+        <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn btn-outline-danger popup-modal">See his video presentation here! </a>
+      </p>
+      <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/watch?v=UewIRC2uDsc&feature=youtu.be&fbclid=IwAR1JD8iMFdztALY9DpKOp5ZcIN63q6tBLSBaR2PSmcOycJnIlM3RMgvx5ng" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+</div>
+  
+<div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+	<br>
+  <div class="text"><span>Sean won best poster at the 2019 CRDH annual conference.
+  <br><a onclick="location.href='http://www.ldmlab.org/lab-news/#CRDH2019';"><span style="cursor:pointer">See here!</span></a></span></div>
+  </div>
+	</p>
+  
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </center>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span>  
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
 </script>
 
-<style>
-.popup{
-   background-color:#E6E9F2;
-   position:absolute;
-   min-height:auto;
-   width:auto;
-   border: solid 2px #B9EAF0;
-   z-index: 1002;
-}
-
-.bg {
-   background-color:#111;
-   opacity: 0.65;
-   position:absolute;
-   z-index: 1000;
-   top:0px;
-   left:0px;
-   width:100%;
-   min-height:100%;
-   overflow:auto;
-}
-</style>
-<html>
-	<body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<a href="#" id="showPopup">CLICK</a>
-
-<div class="bg" style="display:none"></div>
-
-<div class="popup" style="display:none">
-     <a class=".close"> x <a/>
-<iframe id="player" width="560" height="315" src="https://www.youtube.com/embed/Ev4zBCBEELQ" frameborder="0" allowfullscreen></iframe>
+</body> 
+</html> 
 </div>
-	</body>
-		</html>
-	
-
-   
-	    
-	   
+</section>
