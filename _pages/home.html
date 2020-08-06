@@ -73,16 +73,23 @@ font-size:60px
   width:100%;
   margin:0 auto;
 }
+$( document ).ready(function() {
+         $('#headerVideoLink').magnificPopup({
+          type:'inline',
+          midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+        });
+          
+        });
 	</style>
 <body>
 <div class="container">
   <div class="row">
     <div class="col-sm-12">
-      <h1 class="text-center display-4 mt-5">
-        Solodev Web Design & Content Management Software
-      </h1>
+      <h3 class="text-center display-4 mt-5">
+        Sean Devine recently presented at CogSci 2020
+      </h3>
       <p class="text-center mt-5">
-        <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn btn-outline-danger popup-modal">See Sean Devine's presentation at CogSci 2020</a>
+        <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn btn-outline-danger popup-modal">See Sean's presentation here</a>
       </p>
       <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
         <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -91,14 +98,6 @@ font-size:60px
   </div>
 </div>
 </body>
-
-$( document ).ready(function() {
-         $('#headerVideoLink').magnificPopup({
-          type:'inline',
-          midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-        });
-          
-        });
    
 	    
 	   
