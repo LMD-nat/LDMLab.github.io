@@ -1,16 +1,13 @@
 # main links links
 main:
-  - title: "                                                                                                     "
-    url: /home/
-   
-  - title: "          "
-    url: /home/
+  - title: " "
+    url: //
  
-  - title: "          "
-    url: /home/
+  - title: " "
+    url: / /
     
-  - title: "      "
-    url: /home/
+  - title: " "
+    url: //
     
   - title: "Home"
     url: /home/    
