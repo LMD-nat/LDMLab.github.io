@@ -1,5 +1,6 @@
 # main links links
 main:
+<h2>
   - title: "                                                                                                     "
     url: /home/
    
@@ -32,5 +33,5 @@ main:
         
   - title: "Contact us"
     url: /contact-us/
-    
+  </h2>  
 
